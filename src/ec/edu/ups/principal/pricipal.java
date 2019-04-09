@@ -6,11 +6,11 @@ import ec.edu.ups.clase.Pez;
 public class pricipal {
     public static void main(String[] args) {
         Perro perro = new Perro();
-        System.out.println("\tPerro\t");
+        System.out.println("\t\tPerro\t");
         perro.setNombre("polo");
         perro.setSexo("masculino");
         perro.setPeso(10.5);
-        perro.setEdad(10);
+        perro.setEdad(10); 
         
         perro.comer();
         perro.dormir();
@@ -22,7 +22,7 @@ public class pricipal {
        
          
         Ave ave = new Ave();
-        System.out.println("\tAve\t");
+        System.out.println("\t\tAve\t\t");
         ave.setNombre("winky");
         ave.setSexo("hembra");
         ave.setPeso(14.30);
@@ -36,7 +36,7 @@ public class pricipal {
         System.out.println(""+ave);
         
         Pez pez = new Pez();
-        System.out.println("\tPez\t");
+        System.out.println("\t\tPez\t");
         pez.setNombre("nemo");
         pez.setEdad(1);
         pez.setPeso(5.6);
